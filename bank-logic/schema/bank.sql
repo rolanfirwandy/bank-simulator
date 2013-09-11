@@ -152,6 +152,10 @@ INSERT INTO `terminal` (`pk_terminal`, `active`, `mid`, `tid`, `count`, `amount`
 VALUES
 	(1,1,'000800172860017','11111111',0,0,0,0,1);
 
+INSERT INTO `terminal` (`pk_terminal`, `active`, `mid`, `tid`, `count`, `amount`, `batch_count`, `batch_amount`, `fk_bank`)
+VALUES
+	(2,1,'000800910090025','89081504',0,0,0,0,1);
+
 /*!40000 ALTER TABLE `terminal` ENABLE KEYS */;
 UNLOCK TABLES;
 
